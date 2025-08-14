@@ -1,7 +1,4 @@
-// Using local asset added by user
-// Static import works with next/image
-import avatar from "./portfolio image.png"
-
-export const AVATAR_PLACEHOLDER = avatar
+// Use lightweight public asset to avoid bundling large GIFs into JS
+export const AVATAR_PLACEHOLDER = "/placeholder-user.jpg"
 
 
