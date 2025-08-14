@@ -93,14 +93,7 @@ export default function Hero() {
             <div className="pixel-card max-w-md relative">
               <div className="aspect-square bg-gradient-to-br from-blue-500 to-orange-500 p-2 flex items-center justify-center">
                 <div className="relative w-64 h-64 bg-white border-4 border-green-800 flex items-center justify-center overflow-hidden">
-                  <Image 
-                    src={AVATAR_PLACEHOLDER} 
-                    alt="Avatar" 
-                    fill 
-                    className="object-cover" 
-                    priority 
-                    style={{ objectPosition: 'center 30%', objectFit: 'cover' }}
-                  />
+                  <Image src={AVATAR_PLACEHOLDER} alt="Avatar" fill className="object-cover" priority />
                 </div>
               </div>
 
