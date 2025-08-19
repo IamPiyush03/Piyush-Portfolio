@@ -12,8 +12,8 @@ const projects = [
     longDescription:
       "Developed an AI-powered news analysis system that detects fake news with high accuracy. Built a responsive frontend with Material-UI and interactive analytics dashboard using Chart.js for data visualization. Implemented secure RESTful API with JWT authentication, rate limiting, and comprehensive error handling.",
     tech: ["React.js", "Material-UI", "Chart.js", "Node.js", "MongoDB", "Hugging Face", "JWT"],
-    link: "https://water-quality-frontend-seven.vercel.app/",
     github: "https://github.com/Iampiyush03/ai-fake-news-detector",
+    link: "https://ai-fake-news-detector.vercel.app/",
     deployment: "Vercel (frontend) and Render (backend) with MongoDB Atlas",
   },
   {
@@ -22,8 +22,8 @@ const projects = [
     longDescription:
       "Built comprehensive Production Line Management System with role-based authentication, real-time analytics dashboard, and automated order tracking system. Designed material inventory management with low-stock alerts and usage tracking functionality.",
     tech: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT"],
-    link: "https://water-quality-frontend-seven.vercel.app/",
     github: "https://github.com/IamPiyush03/Product-Line-Management",
+    link: "https://product-line-management.vercel.app/",
     deployment: "Full-stack MERN application",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     longDescription:
       "Developed a comprehensive crypto asset management dashboard that assists investors in tracking portfolio performance and monitoring real-time market trends. Focused on delivering seamless user experience with dynamic updates and actionable insights.",
     tech: ["React.js", "JavaScript", "CSS3", "API Integration", "Chart.js"],
-    link: "https://water-quality-frontend-seven.vercel.app/",
+    link: "https://crypto-portfolio-eta.vercel.app/",
     github: "https://github.com/IamPiyush03/Crypto-Portfolio",
     deployment: "Web-based application",
   },
