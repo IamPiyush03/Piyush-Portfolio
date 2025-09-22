@@ -17,6 +17,36 @@ const projects = [
     deployment: "Vercel (frontend) and Render (backend) with MongoDB Atlas",
   },
   {
+    "title": "Stride - AI-Powered Goal Achievement Platform",
+    "description": "A full-stack MERN application featuring a context-aware AI tutor powered by the Google Gemini API.",
+    "longDescription": "Developed a full-stack MERN application called Stride, featuring a context-aware AI tutor powered by the Google Gemini API. The AI automatically generates weekly learning milestones and provides personalized study modules and practice problems. The application includes a secure Node.js RESTful API and a dynamic React/TypeScript frontend. It also features a comprehensive analytics dashboard with progress visualization charts and a check-in calendar to track user performance and learning velocity.",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Google Gemini API",
+      "Data Visualization",
+      "Tailwind CSS",
+      "Vite"
+    ],
+    "link": "https://goal-platform-client-t6ix.vercel.app/",
+    "github": "https://github.com/IamPiyush03/goal-platform-client",
+    "deployment": "Cloud deployment with CI/CD automation"
+  },
+  {
+    title: "Water Quality Analysis & Monitoring",
+    description: "B.E. Final Year Project - Full-stack water quality monitoring platform",
+    longDescription:
+      "Built comprehensive water quality monitoring platform with Next.js (TypeScript) frontend, offering real-time dashboards, interactive data visualizations, and ML-powered potability predictions. Implemented JWT-based authentication, PDF/CSV report generation, and historical trend analysis.",
+    tech: ["Next.js", "TypeScript", "Machine Learning", "JWT", "PDF Generation", "Data Visualization"],
+    link: "https://water-quality-frontend-seven.vercel.app/",
+    github: "https://github.com/IamPiyush03/water-quality-frontend",
+    deployment: "Cloud deployment with CI/CD automation",
+  },
+  {
     title: "Product Line Management",
     description: "Production Line Management System using MERN stack with real-time analytics",
     longDescription:
@@ -35,16 +65,6 @@ const projects = [
     link: "https://crypto-portfolio-eta.vercel.app/",
     github: "https://github.com/IamPiyush03/Crypto-Portfolio",
     deployment: "Web-based application",
-  },
-  {
-    title: "Water Quality Analysis & Monitoring",
-    description: "B.E. Final Year Project - Full-stack water quality monitoring platform",
-    longDescription:
-      "Built comprehensive water quality monitoring platform with Next.js (TypeScript) frontend, offering real-time dashboards, interactive data visualizations, and ML-powered potability predictions. Implemented JWT-based authentication, PDF/CSV report generation, and historical trend analysis.",
-    tech: ["Next.js", "TypeScript", "Machine Learning", "JWT", "PDF Generation", "Data Visualization"],
-    link: "https://water-quality-frontend-seven.vercel.app/",
-    github: "https://github.com/IamPiyush03/ai-fake-news-detector",
-    deployment: "Cloud deployment with CI/CD automation",
   },
 ]
 
