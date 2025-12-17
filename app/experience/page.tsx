@@ -6,6 +6,16 @@ import { Calendar, MapPin, Building } from "lucide-react"
 
 const experiences = [
   {
+    title: "Tech Development Intern",
+    company: "Symplichain Technologies Pvt. Ltd",
+    location: "Remote",
+    duration: "Oct 2025 - Present",
+    description:
+      "Developing full-stack SaaS features using React (TypeScript) and Django REST, implementing multi-tenant architecture, JWT authentication, RBAC, and optimized PostgreSQL data models. Building responsive dashboards and complex UI workflows using React, TypeScript, Tailwind, Recharts, and Leaflet, including multi-step forms and end-to-end authentication flows. Engineering secure backend services with DRF, Celery, and Redis, delivering scalable REST APIs, async task processing, third-party API integrations, and automated testing/documentation workflows.",
+    tech: ["React", "TypeScript", "Django REST", "PostgreSQL", "Tailwind CSS", "Recharts", "Leaflet", "DRF", "Celery", "Redis", "JWT", "RBAC"],
+    type: "current",
+  },
+  {
     title: "Full Stack Engineer - Intern",
     company: "Ronin Labs Private Limited",
     location: "Pune",
@@ -13,7 +23,7 @@ const experiences = [
     description:
       "Built dynamic UI components and an interactive story editor using React.js, ReactFlow, and styled-components, integrating animations with Framer Motion for an engaging user experience. Implemented scalable state management with Zustand to synchronize navigation, player progress, and story data across the application.",
     tech: ["React.js", "ReactFlow", "Styled-components", "Framer Motion", "Zustand"],
-    type: "current",
+    type: "completed",
   },
   {
     title: "MERN Stack Development Intern",
